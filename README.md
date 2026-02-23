@@ -1,7 +1,7 @@
 
-# 📚 Library Management System
+#  Library Management System
 
-## 📌 Project Overview
+##  Project Overview
 
 A Library Management System is a relational database system designed to manage and organize library operations efficiently.  
 It stores information about books, authors, members, staff, issue and return transactions, fines, and book requests.
@@ -119,7 +119,7 @@ Overall, the Library Management System provides an organized, accurate, and effi
 
 ---
 
-## ⚙️ Stored Procedures
+##  Stored Procedures
 
 - `get_all_books()` – Retrieve all book records
 - `add_user()` – Add new member with parameters
