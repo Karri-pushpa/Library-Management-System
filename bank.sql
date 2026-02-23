@@ -171,6 +171,26 @@ from Customer_types c
 right join customers ci
 on c.Customer_types_code=ci.Customer_types_code;
 
+# create views
+
+create view book_view as select book_id,book_title from book;
+select * from book_view;
+
+create view available_books as 
+select book_id,book_title
+from book
+where copies_total>0;
+select * from available_books;
+
+create view book_view1 as 
+select book_id,ISBN_code,book_title
+from book;
+select * from book_view1;
+select * from member;
+create view members_view as 
+select member_id,first_name,city
+from member;
+select * from members_view;
 
 
 
